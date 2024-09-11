@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkMode.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-conteiner">
+        <h1>Login</h1>
+        <form id="login">
+            <input type="email" placeholder="Email" class="login-content">
+            <input type="password" placeholder="Password" class="login-content">
+            <input type="submit" class="login-content" value="Login">
+        </form>
+    </div>
+
+    <div class="home-conteiner hidden">
+        <div class="nav-bar-conteiner">
+            <button class="nav-bar">Home</button>
+            <button class="nav-bar">Form</button>
+            <button class="nav-bar">Cards</button>
+            <button  class="nav-bar" id="logout-btn">Logout</button>
+            <button class="nav-bar" id="dark-light-mode-btn">Dark Mode</button>
+        </div>
+        <div class="display-conteiner">
+            <h2>Your Cards</h2>
+            <div class="cards-conteiner">
+                <div class="cards" id="card-1">
+                    <h3>Cat</h3>
+                    <img src="/images/catImage.jpg" alt="cat">
+                    <p>this is a very specail cat</p>
+                </div>
+                <div class="cards" id="card-2">
+                    <h3>Dog</h3>
+                    <img src="/images/dog.webp" alt="dog">
+                    <p>this is an ordinary dog</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

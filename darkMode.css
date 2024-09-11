@@ -1,0 +1,27 @@
+.dark{
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+.dark .nav-bar{
+    background-color: rgb(107, 105, 105);
+    color: white;
+}
+
+.dark h2{
+    color: white;
+}
+
+.dark h3{
+    color: white;
+}
+
+.dark .display-conteiner{
+    background-color:rgb(107, 105, 105);
+}
+
+.dark .nav-bar-conteiner{
+    background-color: rgb(107, 105, 105);
+}
+
+
